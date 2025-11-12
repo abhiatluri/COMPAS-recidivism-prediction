@@ -60,7 +60,13 @@ COMPAS/
 
 ## Results
 
-The final models have been trained and evaluated. Results are printed when running `compas_predictions.py`, showing accuracy and AUC metrics for both models compared to the COMPAS baseline.
+Final model performance on the test set:
+
+- **Logistic Regression**: 69.91% accuracy, 0.6798 AUC-ROC
+- **XGBoost**: 68.64% accuracy, 0.6896 AUC-ROC
+- **COMPAS Baseline**: 61.99% accuracy, 0.6551 AUC-ROC
+
+Both models outperform the COMPAS baseline. Logistic Regression achieves the highest accuracy (+7.92% over COMPAS), while XGBoost achieves the highest AUC (+3.45% over COMPAS).
 
 ## Limitations and Ethical Considerations
 
