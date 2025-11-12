@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.Trash/
+
+# Data files (optional - you may want to exclude the .db file if it's large)
+# *.db
+# *.csv
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Logs
+*.log
+
